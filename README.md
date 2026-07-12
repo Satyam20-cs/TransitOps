@@ -546,7 +546,7 @@ TransitOps enables organizations to
 
 ---
 
-# 📷 Screenshots
+# Screenshots
 
 Add screenshots here after deployment.
 
