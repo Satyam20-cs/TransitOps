@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚛 TransitOps
+# TransitOps
 ### Smart Fleet & Transport Management System
 
 A modern role-based fleet management platform that streamlines transportation operations, trip management, vehicle maintenance, fuel monitoring, financial tracking, and business analytics.
@@ -18,7 +18,7 @@ A modern role-based fleet management platform that streamlines transportation op
 
 ---
 
-# 📖 Table of Contents
+# Table of Contents
 
 - Introduction
 - Problem Statement
@@ -41,7 +41,7 @@ A modern role-based fleet management platform that streamlines transportation op
 
 ---
 
-# 🚀 Introduction
+# Introduction
 
 TransitOps is a full-stack fleet management system designed to help logistics companies efficiently manage their transportation operations.
 
@@ -51,7 +51,7 @@ The system supports multiple user roles with secure authentication and authoriza
 
 ---
 
-# ❗ Problem Statement
+# Problem Statement
 
 Fleet management companies face several operational challenges:
 
@@ -73,7 +73,7 @@ These inefficiencies result in:
 
 ---
 
-# 💡 Solution
+# Solution
 
 TransitOps digitizes the complete transportation workflow.
 
@@ -92,7 +92,7 @@ Everything is accessible through a secure role-based dashboard.
 
 ---
 
-# ✨ Features
+# Features
 
 ## Authentication
 
@@ -180,7 +180,7 @@ Everything is accessible through a secure role-based dashboard.
 
 ---
 
-# 👥 Role Based Access Control
+# Role Based Access Control
 
 | Role | Permissions |
 |-------|------------|
@@ -191,7 +191,7 @@ Everything is accessible through a secure role-based dashboard.
 
 ---
 
-# 🔄 Business Workflow
+# Business Workflow
 
 ```text
 Vehicle Registration
@@ -223,7 +223,7 @@ Business Reports
 
 ---
 
-# 🏗 System Architecture
+# System Architecture
 
 ```text
                 React Frontend
@@ -239,7 +239,7 @@ Business Reports
 
 ---
 
-# 💻 Technology Stack
+# Technology Stack
 
 ## Frontend
 
@@ -265,7 +265,7 @@ Business Reports
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 TransitOps
@@ -291,7 +291,7 @@ TransitOps
 
 ---
 
-# 🔑 Demo Credentials
+# Demo Credentials
 
 All demo users use the same password.
 
@@ -306,7 +306,7 @@ All demo users use the same password.
 
 ---
 
-# ⚙ Installation Guide
+# Installation Guide
 
 ## Clone Repository
 
@@ -360,7 +360,7 @@ npm run dev
 
 ---
 
-# 🌱 Seed Database
+# Seed Database
 
 Run
 
@@ -377,7 +377,7 @@ This automatically creates
 
 ---
 
-# 🌐 Running the Application
+# Running the Application
 
 Backend
 
@@ -393,7 +393,7 @@ http://localhost:5173
 
 ---
 
-# 📡 API Overview
+# API Overview
 
 Authentication
 
@@ -469,7 +469,7 @@ GET /reports
 
 ---
 
-# 📈 Business Value
+# Business Value
 
 TransitOps enables organizations to
 
@@ -484,7 +484,7 @@ TransitOps enables organizations to
 
 ---
 
-# 📊 Key Business Metrics
+# Key Business Metrics
 
 - Fleet Utilization
 
@@ -504,7 +504,7 @@ TransitOps enables organizations to
 
 ---
 
-# 🔒 Security Features
+# Security Features
 
 - JWT Authentication
 
@@ -520,7 +520,7 @@ TransitOps enables organizations to
 
 ---
 
-# 🚀 Future Scope
+# Future Scope
 
 - GPS Tracking
 
@@ -566,7 +566,7 @@ Reports
 
 ---
 
-# 👨‍💻 Contributors
+# Contributors
 
 | Name | Role |
 |------|------|
@@ -576,7 +576,7 @@ Reports
 
 ---
 
-# 📜 License
+# License
 
 This project is developed for educational purposes and hackathons.
 
