@@ -40,7 +40,6 @@ router.get("/reports", protect, getReports);
 
 // Vehicles
 router.get("/vehicles", protect, getVehicles);
-
 router.post("/vehicles", protect, authorize("Fleet Manager"), createVehicle);
 
 router.put("/vehicles/:id", protect, authorize("Fleet Manager"), async (req, res) => {
@@ -83,13 +82,9 @@ router.delete("/drivers/:id", protect, authorize("Fleet Manager", "Safety Office
 
 // Trips
 router.get("/trips", protect, getTrips);
-
 router.post("/trips", protect, authorize("Fleet Manager", "Driver"), createTrip);
-
 router.patch("/trips/:id/complete", protect, authorize("Fleet Manager", "Driver"), completeTrip);
-
 router.patch("/trips/:id/cancel", protect, authorize("Fleet Manager", "Driver"), cancelTrip);
-
 router.patch("/trips/:id/dispatch", protect, authorize("Fleet Manager", "Driver"), dispatchTrip);
 
 router.delete("/trips/:id", protect, authorize("Fleet Manager"), async (req, res) => {
@@ -99,9 +94,7 @@ router.delete("/trips/:id", protect, authorize("Fleet Manager"), async (req, res
 
 // Maintenance
 router.get("/maintenance", protect, getMaintenance);
-
 router.post("/maintenance", protect, authorize("Fleet Manager"), createMaintenance);
-
 router.patch("/maintenance/:id/close", protect, authorize("Fleet Manager"), closeMaintenance);
 
 router.put("/maintenance/:id", protect, authorize("Fleet Manager"), async (req, res) => {
@@ -120,7 +113,6 @@ router.delete("/maintenance/:id", protect, authorize("Fleet Manager"), async (re
 
 // Fuel Logs
 router.get("/fuel", protect, getFuelLogs);
-
 router.post("/fuel", protect, authorize("Fleet Manager", "Financial Analyst"), createFuelLog);
 
 router.put("/fuel/:id", protect, authorize("Fleet Manager", "Financial Analyst"), async (req, res) => {
@@ -139,7 +131,6 @@ router.delete("/fuel/:id", protect, authorize("Fleet Manager", "Financial Analys
 
 // Expenses
 router.get("/expenses", protect, getExpenses);
-
 router.post("/expenses", protect, authorize("Fleet Manager", "Financial Analyst"), createExpense);
 
 router.put("/expenses/:id", protect, authorize("Fleet Manager", "Financial Analyst"), async (req, res) => {
@@ -158,7 +149,6 @@ router.delete("/expenses/:id", protect, authorize("Fleet Manager", "Financial An
 
 // Users / Settings
 router.get("/users", protect, authorize("Fleet Manager"), getUsers);
-
 router.patch("/users/:id/role", protect, authorize("Fleet Manager"), updateUserRole);
 
 router.delete("/users/:id", protect, authorize("Fleet Manager"), async (req, res) => {
