@@ -16,14 +16,14 @@ import {
 
 export default function Sidebar({ auth, page, setPage, logout }) {
   // Define which roles are allowed to see which tabs
-  const navItems = [
+const navItems = [
     { label: "Dashboard", Icon: LayoutDashboard, roles: ["Fleet Manager", "Driver", "Safety Officer", "Financial Analyst"] },
-    { label: "Vehicles", Icon: Truck, roles: ["Fleet Manager"] },
-    { label: "Drivers", Icon: User, roles: ["Fleet Manager", "Safety Officer"] },
-    { label: "Trips", Icon: ClipboardList, roles: ["Fleet Manager", "Driver"] },
+    { label: "Vehicles", Icon: Truck, roles: ["Fleet Manager", "Financial Analyst", "Driver"] }, 
+    { label: "Drivers", Icon: User, roles: ["Fleet Manager", "Safety Officer"] }, 
+    { label: "Trips", Icon: ClipboardList, roles: ["Fleet Manager", "Driver", "Safety Officer"] }, 
     { label: "Maintenance", Icon: Wrench, roles: ["Fleet Manager"] },
-    { label: "Fuel", Icon: Fuel, roles: ["Fleet Manager", "Driver", "Financial Analyst"] },
-    { label: "Expenses", Icon: FileText, roles: ["Fleet Manager", "Financial Analyst"] },
+    { label: "Fuel", Icon: Fuel, roles: ["Financial Analyst"] }, 
+    { label: "Expenses", Icon: FileText, roles: ["Financial Analyst"] }, 
     { label: "Analytics", Icon: LineChart, roles: ["Fleet Manager", "Financial Analyst"] },
     { label: "Reports", Icon: Download, roles: ["Fleet Manager", "Financial Analyst"] },
     { label: "Settings", Icon: Settings, roles: ["Fleet Manager"] }
